@@ -1,5 +1,6 @@
 /* style.css – Lost Artist Publishing */
 
+
 /* Base Styling */
 body {
     margin: 0;
@@ -21,11 +22,6 @@ body {
 h1, h2 {
     text-align: center;
     color: #39ff14; /* neon green */
-}
-
-h1 {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
 }
 
 .page-heading {
@@ -115,6 +111,21 @@ img {
 .novel-image:hover {
     transform: scale(1.01);
     box-shadow: 0 0 20px rgba(57, 255, 20, 0.9);
+}
+
+.contact-image {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #f9f871;
+    box-shadow: 0 0 12px rgba(249, 248, 113, 0.7);
+    border-radius: 6px;
+    margin: 25px auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-image:hover {
+    transform: scale(1.01);
+    box-shadow: 0 0 20px rgba(249, 248, 113, 0.9);
 }
 
 /* Form Styling */
