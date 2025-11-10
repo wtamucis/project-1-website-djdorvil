@@ -3,6 +3,9 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+# Ignore nested duplicate directory
+project-1-website-djdorvil/
+
 # User-specific files
 *.rsuser
 *.suo
